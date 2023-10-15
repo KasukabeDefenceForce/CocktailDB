@@ -5,7 +5,7 @@ const About = () => {
     <section className='section about-section'>
       <h1 className='section-title'>about page</h1>
       <p>
-        drhjgirjhbidnsilbhjipdsndbxkl iejodsnxwkbgeuohripjoxpjsvnws]GkiDejue9bnb
+        The project is designed to allow users to explore and search for cocktail recipes.
       </p>
     </section>
   )
