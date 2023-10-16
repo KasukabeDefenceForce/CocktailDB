@@ -2,11 +2,12 @@ import React from 'react'
 import { useGlobalContext } from '../context'
 
 const SearchForm = () => {
-  const {setSearchTerm} = useGlobalContext()
+  const {setSearchTerm, searchTerm} = useGlobalContext()
   const searchValue = React.useRef('');
 
   React.useEffect(()=>{
     searchValue.current.focus()
+    searchValue.current.value = searchTerm;
   }, [])
 
   const searchCocktail = ()=>{
