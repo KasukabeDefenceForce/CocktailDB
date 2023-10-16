@@ -22,7 +22,7 @@ const SearchForm = () => {
     <section className='section-search'>
       <form className='search-form' onSubmit={handleSubmit}>
         <div className='forum-control'>
-          <label htmlFor='name'>search your favourite</label>
+          <label htmlFor='name'>search your favourite  </label>
           <input type='text' id='name' ref={searchValue} onChange={searchCocktail}></input>
         </div>
       </form>
